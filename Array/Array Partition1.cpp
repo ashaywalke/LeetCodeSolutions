@@ -7,6 +7,7 @@
 
 class Solution {
 public:
+    int max=0;
     int arrayPairSum(vector<int>& nums) {
         sort(nums.begin(),nums.end());
         int n = nums.size();
